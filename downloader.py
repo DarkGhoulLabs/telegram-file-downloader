@@ -12,8 +12,8 @@ from telethon import TelegramClient
 from tqdm import tqdm
 
 # Replace with your real credentials
-api_id = #API_ID
-api_hash = "#API_HASH"
+api_id = '''API_ID'''
+api_hash = '''API_HASH'''
 session_name = "my_session"
 client = TelegramClient(session_name, api_id, api_hash)
 
